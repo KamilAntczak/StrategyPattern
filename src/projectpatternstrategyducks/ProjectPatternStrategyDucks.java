@@ -5,6 +5,10 @@
  */
 package projectpatternstrategyducks;
 
+import FunctionsOfDuck.FlyCauseHaveWings;
+import PrototypeOfDuck.Duck;
+import DucksCollection.ArtificialDuck;
+
 /**
  *
  * @author Kamil
@@ -14,6 +18,7 @@ public class ProjectPatternStrategyDucks {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
        
         Duck artificialDuck = new ArtificialDuck();
