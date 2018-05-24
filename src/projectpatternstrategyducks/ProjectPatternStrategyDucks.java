@@ -5,9 +5,10 @@
  */
 package projectpatternstrategyducks;
 
-import FunctionsOfDuck.FlyCauseHaveWings;
+import FunctionsOfDuck.FlyFunctions.FlyCauseHaveWings;
 import PrototypeOfDuck.Duck;
 import DucksCollection.ArtificialDuck;
+import DucksCollection.JetDuck;
 
 /**
  *
@@ -27,8 +28,13 @@ public class ProjectPatternStrategyDucks {
         
         artificialDuck.setFlyInterface(new FlyCauseHaveWings());
         
-         artificialDuck.doFly();
+        artificialDuck.doFly();
         artificialDuck.doVoice();
+        
+        
+        Duck jetDuck = new JetDuck();
+        jetDuck.doFly();
+        jetDuck.doVoice();
         
     }
     
